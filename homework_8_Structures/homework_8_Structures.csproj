@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Задание 1.cs" />
+    <Compile Remove="Задание 2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Задание 1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Задание 2.cs" />
+  </ItemGroup>
+
+</Project>
